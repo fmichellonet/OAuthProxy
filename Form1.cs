@@ -25,7 +25,7 @@ namespace OAuthProxy
                 m => m.Host == "localhost:8050" && m.RequestURI.StartsWith("/api"),
                 t =>
                 {
-                    t.Host = "apiscopit.azurewebsites.net";
+                    t.Host = "api.scop-it.com";
                     return t;
                 },
                 new OAuthSecurityInfo
